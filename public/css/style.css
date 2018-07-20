@@ -1,0 +1,93 @@
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    /*background: #D7E1F2;  Цвет фона */
+	/*background: #ADADAD;*/
+     color: #000000; /*Цвет текста */
+   font-size: 16px;
+   }
+   
+   a { color: #008BCE; /* Цвет ссылок */ }
+   
+   /* что то новое для диплома */
+   .flex_row
+   {
+	   padding: 15px;
+	   display: flex;
+    flex-flow: row wrap;
+	
+   }
+   .UpCenter
+   {
+	    text-align: center;
+   }
+   .interlayer   /*для второй линии*/
+   {
+	   padding: 10px;
+	   height: 60px;
+	   text-align: center;
+	   font-size: 20px;
+	   
+   }
+   .advantage
+   {
+	   font-size: 20px;
+	   text-align: center;	
+	 
+   }
+   
+   .registration
+   {
+	   font-size: 20px;
+	   text-align: right;
+	 
+   }
+   /* конец нового для диплома */
+   
+   
+   .container {
+    width: 100%; /* Ширина макета */
+	height: 100%;
+    /*margin: 0 auto;  Выравниваем по центру */
+    /*background: #FCE600;  Цвет колонок */
+   }
+   
+   #header { 
+    font-size: 16px; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+
+	margin-top: 10px;
+	
+   }
+   
+  .FildAutoriz{
+	  text-align: right;
+  }
+  .ImgHead{
+	  width: 140px;
+	  height: 140px;
+  }
+  
+  .CenterHead{
+	  text-align:center;
+	 padding-left:200px;
+  }
+   
+   .content {
+   /* background: #54B948;*/
+    padding: 10px;
+   }
+   
+   .aside {
+   
+	color: #000;
+   }
+p {font-size: 17px}
+   
+   h2 { margin: 0 0 1em; }
+   
+   #footer { 
+    clear: both; /* Отменяем действие float */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #ffffff; /* Цвет фона подвала */
+   }
